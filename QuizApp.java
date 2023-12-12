@@ -60,6 +60,8 @@ public class QuizApp extends JFrame {
     public QuizApp() {
         setTitle("Infrastruktur Quiz");
         setSize(600, 400);
+        Font customFont = new Font("Arial", Font.PLAIN, 16);
+        setFont(customFont);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
